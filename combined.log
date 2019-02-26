@@ -1,0 +1,2 @@
+{"level":"info","message":"Hello distributed log files!","service":"user-service"}
+{"level":"error","message":{"driver":true,"name":"MongoError","index":0,"code":11000,"errmsg":"E11000 duplicate key error collection: test.blogs index: url_1 dup key: { : \"my-first-blog-post5\" }"},"service":"user-service"}

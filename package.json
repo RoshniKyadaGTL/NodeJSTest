@@ -1,0 +1,38 @@
+{
+  "name": "com.roshnikyada.test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.13",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoshniKyadaGTL/NodeJSTest.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Roshni Kyada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoshniKyadaGTL/NodeJSTest/issues"
+  },
+  "homepage": "https://github.com/RoshniKyadaGTL/NodeJSTest#readme"
+}
